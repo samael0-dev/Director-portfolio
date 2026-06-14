@@ -7,7 +7,7 @@ export const Hero = () => {
             Bend<br />
             <span>Reality</span>
             </h1>
-            <p className="w-100">A filmmaker who treats the cinema screen as a philosophical instrument — reordering time, collapsing identity, and restoring wonder to the multiplex.</p>
+            <p className="w-80">A filmmaker who treats the cinema screen as a philosophical instrument — reordering time, collapsing identity, and restoring wonder to the multiplex.</p>
             <div className="hero-scroll">Scroll to explore</div>
         </div>
     </section>
