@@ -3,7 +3,7 @@ export const Hero = () => {
     <section id="hero" className="w-screen flex h-screen items-center">
         <div className="flex flex-col gap-3 pb-25 pl-2">
             <div className="md:2xl">Director · Screenwriter · Producer</div>
-            <h1 className="text-8xl">
+            <h1 className="text-8xl text-yellow-400">
             Bend<br />
             <span>Reality</span>
             </h1>

@@ -25,9 +25,9 @@ export const Model = () => {
     document.addEventListener('scroll',()=>{
 
     gsap.to(rot1Ref.current.rotation, {
-      x: `+=${0.8}`,
-      y: `+=${0.8}`,
-      z: `+=${0.8}`,
+      x: `+=${0.5}`,
+      y: `+=${0.5}`,
+      z: `+=${0.5}`,
       ease: "none",
       ScrollTrigger:{
         trigger: "body",
@@ -39,9 +39,9 @@ export const Model = () => {
     });
 
     gsap.to(rot2Ref.current.rotation, {
-      x: `+=${1}`,
-      y: `+=${1}`,
-      z: `+=${1}`,
+      x: `+=${0.9}`,
+      y: `+=${0.9}`,
+      z: `+=${0.9}`,
       ease: "none",
       ScrollTrigger:{
         trigger: "body",
@@ -52,9 +52,9 @@ export const Model = () => {
     });
     
     gsap.to(rot3Ref.current.rotation, {
-      x: `+=${1}`,
-      y: `+=${1}`,
-      z: `+=${1}`,
+      x: `+=${0.7}`,
+      y: `+=${0.7}`,
+      z: `+=${0.7}`,
       ease: "none",
       ScrollTrigger:{
         trigger: "body",
